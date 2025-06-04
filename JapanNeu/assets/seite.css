@@ -1,8 +1,8 @@
 /* === Grundlegendes Layout und Schrift === */
 body {
     font-family: sans-serif; /* Einfache Standardschrift */
-    background-color: #f5f5f5; /* Hellgrauer Hintergrund */
-    color: #333; /* Dunkelgrauer Text */
+    background-color: white; /* Hellgrauer Hintergrund */
+    color: black; /* Dunkelgrauer Text */
     margin: 0;
     padding: 0;
     line-height: 1.5; /* Etwas mehr Abstand zwischen den Zeilen */
@@ -16,7 +16,7 @@ main {
 
 /* === Kopfbereich und Navigation === */
 header {
-    background-color: #800000; /* Dunkelrot als Hintergrund */
+    background-color: maroon; /* Dunkelrot als Hintergrund */
     color: white;
     padding: 15px;
     text-align: center;
@@ -31,25 +31,25 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    background-color: #fff;
+    background-color: white;
     padding: 0;
     margin: 0;
     border-radius: 8px;
 }
 
 nav ul li a {
-    color: #333;
+    color: black;
     padding: 10px 15px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #eee;
+    background-color: silver;
 }
 
 /* === Fußbereich === */
 footer {
-    background-color: #800000;
+    background-color: maroon;
     color: white;
     text-align: center;
     padding: 15px;
@@ -71,7 +71,7 @@ img:hover {
 .bildrahmen {
     border: 2px solid #000;
     padding: 6px;
-    background-color: #eee;
+    background-color: silver;
     border-radius: 8px;
     margin: 15px;
     width: 40%;
@@ -107,17 +107,17 @@ th, td {
 }
 
 th {
-    background-color: #ddd;
+    background-color: gray;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: silver;
 }
 
 /* === Kleine Hinweise / Badges === */
 .badge {
     display: inline-block;
-    background-color: #ffc107;
+    background-color: gold;
     color: black;
     padding: 4px 8px;
     font-size: 0.85em;
@@ -127,7 +127,7 @@ tbody tr:nth-child(even) {
 /* === Knöpfe === */
 button, a.button {
     padding: 10px 20px;
-    background-color: #00b3b3;
+    background-color: darkturquoise;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -136,12 +136,12 @@ button, a.button {
 }
 
 button:hover, a.button:hover {
-    background-color: #009999;
+    background-color: deepskyblue;
 }
 
 /* === Infoboxen für Fakten === */
 .info-box {
-    background: #f0f8ff;
+    background: honeydew;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -149,13 +149,13 @@ button:hover, a.button:hover {
 
 .info-title {
     font-size: 1.4em;
-    color: #005f99;
+    color: dodgerblue;
     margin-bottom: 5px;
 }
 
 .info-content {
     font-size: 1em;
-    color: #444;
+    color: dimgray;
 }
 
 /* === Einfacheres Responsive Design === */
@@ -175,8 +175,8 @@ button:hover, a.button:hover {
 
 /* === Japan-Stil-Faktenbox === */
 .faktbox {
-    background: #ffe4e1;
-    color: #900;
+    background: floralwhite;
+    color: firebrick;
     padding: 15px;
     margin: 20px 0;
     border-left: 6px solid #e60026;
